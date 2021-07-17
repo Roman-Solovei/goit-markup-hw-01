@@ -1,0 +1,131 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-color: #ffffff;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--title-text-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+/*header */
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.logo-web {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.logo-studio.white {
+  color: #ffffff;
+}
+
+/*nav bar*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/*contacts*/
+.contacts .link {
+  color: var(--title-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--primary-color);
+  background-color: #2f303a;
+}
+
+.hero-button {
+  font-family: Roboto;
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+
+/*мы лучшие*/
+.subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.subtitle-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--primary-text-color);
+}
+
+.subtitle.big {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/*team*/
+.title-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.subtitle-text.team {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*footer*/
+.footer {
+  background-color: #2f303a;
+}
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address.white {
+  color: #ffffff;
+}
+/*portfolio*/
